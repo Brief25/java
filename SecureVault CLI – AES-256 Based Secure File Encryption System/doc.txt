@@ -1,0 +1,31 @@
+del /s *.class
+
+
+2️⃣ Compile ALL files
+javac securevault\util\ProgressBar.java ^
+       securevault\crypto\AESGCMFileEncryptor.java ^
+       securevault\crypto\AESGCMFileDecryptor.java ^
+       securevault\crypto\KeyDerivation.java ^
+       securevault\crypto\PasswordReader.java ^
+       securevault\cli\CommandParser.java ^
+       securevault\SecureVaultCLI.java
+
+
+
+      
+
+      🔜 OPTIONAL NEXT UPGRADES (If You Want)
+
+CLI flags (--input --output)
+
+Progress bar
+
+Folder encryption
+
+Secure delete
+
+Encryption versioning
+
+Project report (PDF/Word)
+
+Viva Q&A set
